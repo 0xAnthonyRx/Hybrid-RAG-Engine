@@ -13,7 +13,6 @@ Designed to eliminate retrieval failure modes on exact alphanumeric identifiers 
 - [Getting Started](#getting-started)
 - [Production Verification](#production-verification-sample-output)
 - [Limitations & Future Work](#limitations--future-work)
-- [License](#license)
 
 ---
 
@@ -211,6 +210,5 @@ Sources Cited: ['MAN-PUMP-TX8']
 - **Small Corpus:** Currently validated on 5 documents. Scaling to 10k+ may require tuning candidate limits and batch reranking.
 - **Single-Language:** English-only stemming and embeddings. Multi-language support would require model swaps.
 - **LLM-based Generation:** Costs scale with query volume; local model substitution is possible.
-
 
 MIT
